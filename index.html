@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Stats Calculator</title>
+    <link rel="stylesheet" href="static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="glow-header">Stats Calculator</h1>
+
+        <form method="POST">
+            <div class="form-group">
+                <label for="data">Data (comma separated):</label>
+                <input type="text" id="data" name="data" required>
+            </div>
+
+            <div class="form-group">
+                <label for="place">Places to round to:</label>
+                <input type="number" id="place" name="place" required>
+            </div>
+
+            <button class="button-85" type="submit">Calculate Stats</button>
+        </form>
+    </div>
+</body>
+</html>

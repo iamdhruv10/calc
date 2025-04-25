@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculation Results</title>
+    <link rel="stylesheet" href="static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="glow-header">Calculation Results</h1>
+
+        <!-- Assuming you'll dynamically display results here -->
+        <div class="result">
+            <p><strong>Mean:</strong> {{ stats['mean'] }}</p>
+            <p><strong>Median:</strong> {{ stats['median'] }}</p>
+            <p><strong>Mode:</strong> {{ stats['mode'] }}</p>
+            <p><strong>Range:</strong> {{ stats['range'] }}</p>
+            <p><strong>IQR:</strong> {{ stats['IQR'] }}</p>
+            <p><strong>MAD:</strong> {{ stats['MAD'] }}</p>
+            <p><strong>Standard Deviation:</strong> {{ stats['Standard Deviation'] }}</p>
+        </div>
+
+        <!-- Go Back Button -->
+        <a href="/">
+            <button class="button-85" type="button">Go Back</button>
+        </a>
+    </div>
+</body>
+</html>
